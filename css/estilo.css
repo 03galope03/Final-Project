@@ -47,24 +47,9 @@ header .menu a{
     border-bottom: 2px solid transparent;
 }
 
-/*header .menu{*/
-/*    margin: 40px 0;*/
-/*    text-align: right;*/
-/*}*/
-
-/*header .menu a{*/
-/*    margin: 0 20px;*/
-/*    color: #fff;*/
-/*    font-size: 1em;*/
-/*    display: inline-block;*/
-/*    padding-bottom: 9px;*/
-/*    text-decoration: none;*/
-/*    border-bottom: 2px solid transparent;*/
-/*}*/
-
 header .menu a:hover{
     border-bottom: 2px solid #fff;
-    background: #387bea;
+    background: #1e2b38;
 }
 
 header .contenedor-texto{
@@ -196,6 +181,10 @@ header .contenedor-texto .texto .profesion{
     color: #636363;
 }
 
+footer .formularioo .contenedor{
+    padding-bottom: 1000px;
+}
+
 footer .contacto{
     padding: 60px 0;
 }
@@ -253,6 +242,12 @@ footer .contacto .formulario .boton:hover {
     background: #387bea;
 }
 
+footer .contenedor{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    bottom: -50%;
+}
 footer .redes-sociales{
     background: #1e2b38;
     padding: 60px 0;
